@@ -1,0 +1,79 @@
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.home-page {
+    height: 700px;
+}
+
+.home-page img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    max-height: min-content;
+
+}
+
+.on-media {
+    display: none;
+}
+  
+
+/* for mobile view at 400px  */
+@media screen and (max-width: 480px) {
+    .home-page {
+        width: 100%;
+        background: linear-gradient(to right, #ec497f, #f4b841);
+        height: 680px;
+
+    }
+
+    .home-page img {
+        display: none;
+    }
+
+    .on-media {
+        display: contents;
+        color: yellow;
+    }
+
+    h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding-top: 50%;
+        font-family: 'Dancing Script', cursive;
+        /* background-color: aqua; */
+        font-size: 80px;
+    }
+}
+
+ /* for tablet view upto 780px */
+@media screen and (max-width:800px){
+    .home-page {
+        width: 100%;
+        background: linear-gradient(to right,#f4b841 #ec497f, );
+        height: 680px;
+
+    }
+
+    .home-page img {
+        display: none;
+    }
+
+    .on-media {
+        display: contents;
+        color: yellow;
+    }
+
+    h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding-top: 30%;
+        font-family: 'Dancing Script', cursive;
+        /* background-color: aqua; */
+        font-size: 80px;
+    }
+}

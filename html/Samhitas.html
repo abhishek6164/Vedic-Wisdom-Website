@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient treasure</title>
+<script src="https://kit.fontawesome.com/c020b4d63a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/navbar.css">
+<!-- h1 font -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+</style>
+
+    <!-- for navbar  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        </style>
+
+<link rel="stylesheet" href="../css/vedas.css">
+</head>
+<body>  
+
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="/html/Main.html" class="active">Home</a>
+        <a href="/html/contact.html">Contact</a>
+        <a href="/html/About.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <button onclick="topFunction()"  id="myBtn" title="Go to top">Top ⬆️</button>
+
+
+    <div class="page">
+        <h1>Samhitas</h1>
+        <p> <span>The Rigveda </span> is the oldest compilation of human wisdom. This Samhita (Collection) is unique in its nature. In fact, it is not a book, but a compilation composed of several books which can be individually distinguished from each other. The present from of this Samhita clearly indicates that the collection is not a single work, but consists of older and later elements. Various indications of language, style and ideas prove this point. Different hymns of this Samhita were composed long before they were systematically arranged. Being a compilation of different stages, there is something which stamps the Rigveda with an individuality of its own. It is much more natural in character and form than other Samhitas.</p>
+    </div>
+
+    <footer  style="padding-top: 90px;">
+        <div class="footer">
+            <div class="row">
+
+                <div class="col-1" style="width: 50%;">
+                    <p>Copy Right ©2022 </p>
+                    <p> Presented By <b> Abhishek Pipriye</b> , <b>Pratik Borikar </b>, <b>Ritvik Ladwani</b> </p>
+                </div>
+
+                <div class="col-2" style="width:50% ;">
+                    <p>Follow us on <br>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+
+    <!-- scroll to top  -->
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+</body>
+</html>
